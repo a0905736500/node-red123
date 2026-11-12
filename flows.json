@@ -1,0 +1,1066 @@
+[
+    {
+        "id": "2889e6814487a261",
+        "type": "tab",
+        "label": "智慧教室感測器",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "tab_project_b_14_zh",
+        "type": "tab",
+        "label": "專題 B：遠端設備控制 (中文版)",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "ebbf3de0f7164c6d",
+        "type": "mqtt-broker",
+        "name": "mqtt",
+        "broker": "mqtt.ridgerealm.com",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "41249d249c9ada59",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "pool_game_tab",
+        "type": "ui_tab",
+        "name": "撞球遊戲大廳",
+        "icon": "sports_sports",
+        "order": 2
+    },
+    {
+        "id": "tictactoe_tab",
+        "type": "ui_tab",
+        "name": "井字遊戲大廳",
+        "icon": "grid_on",
+        "order": 3
+    },
+    {
+        "id": "memory_game_tab",
+        "type": "ui_tab",
+        "name": "記憶翻牌大廳",
+        "icon": "extension",
+        "order": 4
+    },
+    {
+        "id": "ui_tab_two_charts",
+        "type": "ui_tab",
+        "name": "嘉義縣智慧環境生活儀表板",
+        "icon": "dashboard",
+        "order": 1
+    },
+    {
+        "id": "d3c3b068b11025cf",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "77f2693a64d09655",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "fix_ui_group",
+        "type": "ui_group",
+        "name": "溫控面板",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "oven_group",
+        "type": "ui_group",
+        "name": "烤箱控制",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "weather_group",
+        "type": "ui_group",
+        "name": "即時氣象",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "chiayi_page_group",
+        "type": "ui_group",
+        "name": "即時氣象資訊",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "chiayi_7day_group",
+        "type": "ui_group",
+        "name": "一週氣象趨勢",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "whip_group",
+        "type": "ui_group",
+        "name": "體感遊戲區",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "mouse_whip_group",
+        "type": "ui_group",
+        "name": "滑鼠遊戲區",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "whip_enemy_group",
+        "type": "ui_group",
+        "name": "甩鞭打怪",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "whip_target_group",
+        "type": "ui_group",
+        "name": "甩鞭遊戲區",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "click_game_group",
+        "type": "ui_group",
+        "name": "點擊遊戲區",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "pool_game_group",
+        "type": "ui_group",
+        "name": "撞球遊戲",
+        "tab": "pool_game_tab",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "tictactoe_group",
+        "type": "ui_group",
+        "name": "圈圈叉叉遊戲",
+        "tab": "tictactoe_tab",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "memory_game_group",
+        "type": "ui_group",
+        "name": "記憶翻牌",
+        "tab": "memory_game_tab",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ui_group_weather",
+        "type": "ui_group",
+        "name": "嘉義即時天氣儀表",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ui_group_alerts",
+        "type": "ui_group",
+        "name": "智慧管家生活提醒",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ui_group_weather_pro",
+        "type": "ui_group",
+        "name": "嘉義即時氣候數據",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ui_group_alerts_pro",
+        "type": "ui_group",
+        "name": "智慧生活提示卡片",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ui_group_gauges",
+        "type": "ui_group",
+        "name": "📊 嘉義即時環境數據",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ui_group_outdoors",
+        "type": "ui_group",
+        "name": "🚶 外出與生活準備",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ui_group_health",
+        "type": "ui_group",
+        "name": "👕 穿衣與健康指南",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ui_group_gauges_u",
+        "type": "ui_group",
+        "name": "📊 嘉義即時氣候環境",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ui_group_control_u",
+        "type": "ui_group",
+        "name": "⚙️ 系統控制與紀錄",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ui_group_cards_u",
+        "type": "ui_group",
+        "name": "💡 智慧生活提醒與指南",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "ui_group_gauges_v",
+        "type": "ui_group",
+        "name": "📊 嘉義即時環境數據",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ui_group_outdoors_v",
+        "type": "ui_group",
+        "name": "🚶 外出與生活準備",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ui_group_g_fv",
+        "type": "ui_group",
+        "name": "📊 嘉義即時環境數據",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ui_group_o_fv",
+        "type": "ui_group",
+        "name": "🚶 外出與生活準備",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ui_group_h_fv",
+        "type": "ui_group",
+        "name": "👕 穿衣與健康指南",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ui_group_chart_v",
+        "type": "ui_group",
+        "name": "📱 嘉義智慧環境與生活指南",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ui_group_two_charts_v",
+        "type": "ui_group",
+        "name": "📱 嘉義智慧環境與生活指南",
+        "tab": "ui_tab_two_charts",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "38d3239486579ffe",
+        "type": "Service Host",
+        "apiBase": "https://generativelanguage.googleapis.com/v1beta/openai/",
+        "apiBaseType": "str",
+        "secureApiKeyHeaderOrQueryName": "Authorization",
+        "secureApiKeyHeaderOrQueryNameType": "str",
+        "organizationId": "",
+        "organizationIdType": "str",
+        "secureApiKeyValueType": "cred",
+        "secureApiKeyValueRef": "",
+        "secureAdminApiKeyValueType": "cred",
+        "secureAdminApiKeyValueRef": "",
+        "name": ""
+    },
+    {
+        "id": "92a7d38139e44646",
+        "type": "line-messaging-api-config",
+        "channelName": "JN069",
+        "hasToken": true,
+        "hasSecret": true
+    },
+    {
+        "id": "76c49123c31820f0",
+        "type": "line-messaging-api-config",
+        "channelName": "JN069",
+        "hasToken": true,
+        "hasSecret": false
+    },
+    {
+        "id": "c8b609a76038dde8",
+        "type": "line-messaging-api-config"
+    },
+    {
+        "id": "1874211321258ae8",
+        "type": "ui_group",
+        "name": "智慧教室環境監控",
+        "tab": "0545a538e19ef4f6",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "0545a538e19ef4f6",
+        "type": "ui_tab",
+        "name": "AIOT 專題 A",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "665ac783832b76f2",
+        "type": "ui_group",
+        "name": "遠端設備控制 (專題 B - user14)",
+        "tab": "77c41105138b1bbf",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "ui_tab_project_b_14",
+        "type": "ui_tab",
+        "name": "AIOT 專題 B",
+        "icon": "settings_remote",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ui_group_control_14",
+        "type": "ui_group",
+        "name": "遠端設備控制 (專題 B - user14)",
+        "tab": "ui_tab_project_b_14",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "0c18e2bdc37a0937",
+        "type": "inject",
+        "z": "2889e6814487a261",
+        "name": "模擬溫濕度 (每20秒)",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "20",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 140,
+        "wires": [
+            [
+                "650045b8f528b82c"
+            ]
+        ]
+    },
+    {
+        "id": "650045b8f528b82c",
+        "type": "function",
+        "z": "2889e6814487a261",
+        "name": "產生隨機溫濕度",
+        "func": "// 產生 22.0 ~ 28.0 之間的隨機溫度\nconst tempMsg = {\n    topic: \"AIOT/user14/溫度\",\n    payload: {\n        \"溫度\": Number((Math.random() * 6 + 22).toFixed(1))\n    }\n};\n\n// 產生 50 ~ 75 之間的隨機濕度\nconst humMsg = {\n    topic: \"AIOT/user14/濕度\",\n    payload: {\n        \"濕度\": Math.floor(Math.random() * 26 + 50)\n    }\n};\n\nreturn [[tempMsg, humMsg]];",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 140,
+        "wires": [
+            [
+                "fb78987c50152d9c"
+            ]
+        ]
+    },
+    {
+        "id": "fb78987c50152d9c",
+        "type": "mqtt out",
+        "z": "2889e6814487a261",
+        "name": "Publish 感測資料",
+        "topic": "",
+        "qos": "0",
+        "retain": "false",
+        "broker": "ebbf3de0f7164c6d",
+        "x": 670,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "350786ae82281311",
+        "type": "mqtt in",
+        "z": "2889e6814487a261",
+        "name": "訂閱所有組別感測器",
+        "topic": "AIOT/#",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "ebbf3de0f7164c6d",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 210,
+        "y": 280,
+        "wires": [
+            [
+                "dc1490f77c550408",
+                "0185b2ae9165e5e2"
+            ]
+        ]
+    },
+    {
+        "id": "dc1490f77c550408",
+        "type": "function",
+        "z": "2889e6814487a261",
+        "name": "解析各組溫濕度給 UI",
+        "func": "let parts = msg.topic.split('/');\nlet groupName = parts[1] || 'unknown';\nlet data = msg.payload;\n\nif (typeof data === 'string') {\n    try { data = JSON.parse(data); } catch (e) { data = parseFloat(data); }\n}\n\nlet tempMsg = null;\nlet humMsg = null;\n\n// 判斷溫度 (相容中英文欄位與 Topic)\nif (msg.topic.includes('溫度') || msg.topic.includes('temp') || (typeof data === 'object' && (data['溫度'] !== undefined || data.temperature !== undefined))) {\n    let val = typeof data === 'object' ? (data['溫度'] ?? data.temperature) : data;\n    if (!isNaN(val)) {\n        tempMsg = { payload: Number(val), topic: groupName };\n    }\n}\n\n// 判斷濕度 (相容中英文欄位與 Topic)\nif (msg.topic.includes('濕度') || msg.topic.includes('hum') || (typeof data === 'object' && (data['濕度'] !== undefined || data.humidity !== undefined))) {\n    let val = typeof data === 'object' ? (data['濕度'] ?? data.humidity) : data;\n    if (!isNaN(val)) {\n        humMsg = { payload: Number(val), topic: groupName };\n    }\n}\n\nreturn [tempMsg, humMsg];",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 450,
+        "y": 280,
+        "wires": [
+            [
+                "7a8754fd7da8c384",
+                "1156481a708a7b7f"
+            ],
+            [
+                "5b998f815bcb742c",
+                "661a37e1af75f0bd"
+            ]
+        ]
+    },
+    {
+        "id": "7a8754fd7da8c384",
+        "type": "ui_gauge",
+        "z": "2889e6814487a261",
+        "name": "即時溫度儀表",
+        "group": "1874211321258ae8",
+        "order": 1,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "最新溫度 ({{msg.topic}})",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "45",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "24",
+        "seg2": "29",
+        "x": 700,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "1156481a708a7b7f",
+        "type": "ui_chart",
+        "z": "2889e6814487a261",
+        "name": "各組溫度歷史曲線",
+        "group": "1874211321258ae8",
+        "order": 3,
+        "width": "9",
+        "height": "7",
+        "label": "各教室溫度變化 (°C)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "等待感測資料...",
+        "dot": true,
+        "ymin": "15",
+        "ymax": "40",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#ff7f0e",
+            "#2ca02c",
+            "#d62728",
+            "#9467bd",
+            "#8c564b",
+            "#e377c2",
+            "#7f7f7f",
+            "#bcbd22"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 710,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5b998f815bcb742c",
+        "type": "ui_gauge",
+        "z": "2889e6814487a261",
+        "name": "即時濕度儀表",
+        "group": "1874211321258ae8",
+        "order": 2,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "最新濕度 ({{msg.topic}})",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#e6e600",
+            "#00b500",
+            "#0073e6"
+        ],
+        "seg1": "40",
+        "seg2": "75",
+        "x": 700,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "661a37e1af75f0bd",
+        "type": "ui_chart",
+        "z": "2889e6814487a261",
+        "name": "各組濕度歷史曲線",
+        "group": "1874211321258ae8",
+        "order": 4,
+        "width": "9",
+        "height": "7",
+        "label": "各教室濕度變化 (%)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "等待感測資料...",
+        "dot": true,
+        "ymin": "20",
+        "ymax": "100",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#2ca02c",
+            "#1f77b4",
+            "#ff7f0e",
+            "#d62728",
+            "#9467bd",
+            "#8c564b",
+            "#e377c2",
+            "#7f7f7f",
+            "#bcbd22"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 710,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0185b2ae9165e5e2",
+        "type": "debug",
+        "z": "2889e6814487a261",
+        "name": "顯示原始封包",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 440,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "ui_switch_a_14",
+        "type": "ui_switch",
+        "z": "tab_project_b_14_zh",
+        "name": "A組：LED 遠端開關",
+        "label": "LED 電源開關",
+        "tooltip": "",
+        "group": "ui_group_control_14",
+        "order": 1,
+        "width": 6,
+        "height": 2,
+        "passthru": false,
+        "decouple": "false",
+        "topic": "AIOT/user14/control/led",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "ON",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "OFF",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 200,
+        "y": 100,
+        "wires": [
+            [
+                "func_a_cmd_14"
+            ]
+        ]
+    },
+    {
+        "id": "ui_slider_a_14",
+        "type": "ui_slider",
+        "z": "tab_project_b_14_zh",
+        "name": "A組：LED 亮度拉桿",
+        "label": "亮度調整 ({{value}}%)",
+        "tooltip": "",
+        "group": "ui_group_control_14",
+        "order": 2,
+        "width": 6,
+        "height": 2,
+        "passthru": false,
+        "outs": "end",
+        "topic": "AIOT/user14/control/led",
+        "topicType": "str",
+        "min": 0,
+        "max": "100",
+        "step": "1",
+        "className": "",
+        "x": 200,
+        "y": 160,
+        "wires": [
+            [
+                "func_a_cmd_14"
+            ]
+        ]
+    },
+    {
+        "id": "func_a_cmd_14",
+        "type": "function",
+        "z": "tab_project_b_14_zh",
+        "name": "A組：整合控制指令(中文)",
+        "func": "let power = flow.get('a_power') || '開啟';\nlet brightness = flow.get('a_brightness') ?? 80;\n\nif (msg.payload === 'ON' || msg.payload === 'OFF') {\n    power = (msg.payload === 'ON') ? '開啟' : '關閉';\n    if (power === '開啟' && brightness === 0) brightness = 50;\n} else if (typeof msg.payload === 'number') {\n    brightness = msg.payload;\n    power = brightness > 0 ? '開啟' : '關閉';\n}\n\nflow.set('a_power', power);\nflow.set('a_brightness', brightness);\n\nmsg.topic = \"AIOT/user14/control/led\";\nmsg.payload = {\n    \"電源\": power,\n    \"亮度\": brightness\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 450,
+        "y": 130,
+        "wires": [
+            [
+                "mqtt_out_a_ctrl_14"
+            ]
+        ]
+    },
+    {
+        "id": "mqtt_out_a_ctrl_14",
+        "type": "mqtt out",
+        "z": "tab_project_b_14_zh",
+        "name": "A組：發送控制指令",
+        "topic": "",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "ebbf3de0f7164c6d",
+        "x": 690,
+        "y": 130,
+        "wires": []
+    },
+    {
+        "id": "mqtt_in_a_status_14",
+        "type": "mqtt in",
+        "z": "tab_project_b_14_zh",
+        "name": "A組：訂閱設備狀態",
+        "topic": "AIOT/user14/status/led",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "ebbf3de0f7164c6d",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 200,
+        "y": 240,
+        "wires": [
+            [
+                "func_format_status_14",
+                "debug_b_all_14"
+            ]
+        ]
+    },
+    {
+        "id": "func_format_status_14",
+        "type": "function",
+        "z": "tab_project_b_14_zh",
+        "name": "轉換中文狀態顯示",
+        "func": "let data = msg.payload;\nif (typeof data === 'string') {\n    try { data = JSON.parse(data); } catch (e) {}\n}\n\nif (typeof data === 'object' && data !== null) {\n    let state = data[\"狀態\"] ?? data.power ?? \"關閉\";\n    let isOn = (state === \"開啟\" || String(state).toUpperCase() === \"ON\");\n    let bri = data[\"亮度\"] ?? data.brightness ?? (isOn ? 100 : 0);\n    msg.payload = isOn ? `💡 狀態：開啟 ｜ 亮度：${bri}%` : `🌑 狀態：關閉 ｜ 亮度：0%`;\n} else {\n    msg.payload = `目前狀態：${data}`;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 440,
+        "y": 240,
+        "wires": [
+            [
+                "ui_text_a_status_14"
+            ]
+        ]
+    },
+    {
+        "id": "ui_text_a_status_14",
+        "type": "ui_text",
+        "z": "tab_project_b_14_zh",
+        "group": "ui_group_control_14",
+        "order": 3,
+        "width": 12,
+        "height": 2,
+        "name": "A組：顯示回傳狀態",
+        "label": "設備回傳狀態",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 670,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "mqtt_in_b_ctrl_14",
+        "type": "mqtt in",
+        "z": "tab_project_b_14_zh",
+        "name": "B組：接收控制指令",
+        "topic": "AIOT/user14/control/led",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "ebbf3de0f7164c6d",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 200,
+        "y": 380,
+        "wires": [
+            [
+                "func_b_exec_14"
+            ]
+        ]
+    },
+    {
+        "id": "func_b_exec_14",
+        "type": "function",
+        "z": "tab_project_b_14_zh",
+        "name": "B組：模擬執行並回傳中文",
+        "func": "let data = msg.payload;\nif (typeof data === 'string') {\n    try { data = JSON.parse(data); } catch (e) {}\n}\n\nlet power = \"關閉\";\nlet brightness = 0;\n\nif (typeof data === 'object' && data !== null) {\n    let rawPower = String(data[\"電源\"] ?? data.power ?? \"關閉\").toUpperCase();\n    let isOn = (rawPower === \"開啟\" || rawPower === \"ON\" || rawPower === \"1\" || rawPower === \"TRUE\");\n    power = isOn ? \"開啟\" : \"關閉\";\n    brightness = Number(data[\"亮度\"] ?? data.brightness ?? (isOn ? 100 : 0));\n} else if (typeof data === 'number') {\n    brightness = data;\n    power = brightness > 0 ? \"開啟\" : \"關閉\";\n}\n\nif (power === \"關閉\") brightness = 0;\n\nnode.status({\n    fill: power === \"開啟\" ? \"yellow\" : \"grey\",\n    shape: \"dot\",\n    text: `電源: ${power} ｜ 亮度: ${brightness}%`\n});\n\nmsg.topic = \"AIOT/user14/status/led\";\nmsg.payload = {\n    \"狀態\": power,\n    \"亮度\": brightness\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 450,
+        "y": 380,
+        "wires": [
+            [
+                "mqtt_out_b_status_14"
+            ]
+        ]
+    },
+    {
+        "id": "mqtt_out_b_status_14",
+        "type": "mqtt out",
+        "z": "tab_project_b_14_zh",
+        "name": "B組：回傳設備狀態",
+        "topic": "",
+        "qos": "0",
+        "retain": "false",
+        "broker": "ebbf3de0f7164c6d",
+        "x": 690,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "debug_b_all_14",
+        "type": "debug",
+        "z": "tab_project_b_14_zh",
+        "name": "印出中文亮度與狀態",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 310,
+        "wires": []
+    },
+    {
+        "id": "be1b7194ca7f7927",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6",
+            "@inductiv/node-red-openai-api": "6.40.0",
+            "node-red-contrib-node-line-api": "0.8.10"
+        }
+    }
+]
